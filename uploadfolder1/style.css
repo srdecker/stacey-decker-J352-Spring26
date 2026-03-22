@@ -1,0 +1,51 @@
+/*COLOR PALETTE
+ * Black - #0a090c
+ * Dark Cyan - #07393c
+ * Azure - #2c666e
+ * Pastel Azure - #90ddf0
+ * Gray - #f0edee
+*/
+
+/* FONT
+ * https://fonts.google.com/specimen/Hanken+Grotesk
+ * /
+
+#headshot {
+    width: 100%;
+}
+
+.background {
+    background-color: blue;
+}
+
+#topper {
+    background-color: black;
+}
+
+#topper2 {
+    background-color: black;
+}
+
+#topper3 {
+    background-color: black;
+}
+
+.nav {
+    margin-top: -60px;
+    padding-bottom: 60px;
+}
+
+.shorterrow {
+    height: 200px;
+}
+
+.fullwidth {
+    padding: 0px;
+}
+
+.imagebehind {
+    background-image: url(Stacey_Decker_03.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
