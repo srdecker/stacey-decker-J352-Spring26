@@ -5,3 +5,13 @@ h1 {
     font-size: 30px;
     text-align: center;
 }
+
+.bold-title {
+    font-weight: bold;
+    font-size:100px;
+    letter-spacing:3px;
+}
+
+.green {
+    color:green;
+}
