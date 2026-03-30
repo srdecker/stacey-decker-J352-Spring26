@@ -9,14 +9,32 @@
         background-color: #07393c;
     }
 
+    .green {
+        background-color: green;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+    
+    #something {
+        font-size:50px;
+    }
+
+    .spacing {
+        padding: 17px 0px 17px 0px;
+        margin: 30px 10px 50px 20px;
+        width: 300px;
+    }
+
     #headshot {
         width: 100%;
         border-radius: 45px;
         border: 8px solid #f0edee;
     }
-    
+
     .fullwidth {
-        padding:0px;
+        padding: 0px;
     }
 
     h1 {
@@ -32,7 +50,7 @@
     button {
         border-radius: 45px;
         border: none;
-        width:100px;
+        width: 100px;
     }
 
     .job {
@@ -54,24 +72,16 @@
         font-weight: bold;
         border-bottom: 1px solid blue;
     }
+    
+    .footer {
+        position:fixed;
+        top:0px;
+    }
 }
 
 @media (min-width:576px) {
-    h1 {
-        font-size:80px;
+    #something {
+        font-size:200px;
     }
-    
-    button {
-        width:200px;
-    }
-    
 }
-    
 
-
-@media (min-width:768px) {
-    h1 {
-        font-size:100px;
-    }
-    
-}
