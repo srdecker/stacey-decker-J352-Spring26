@@ -1,0 +1,35 @@
+@media screen {
+    body {
+        font-family: georgia, serif;
+    }
+
+    #article {
+        width: 70%;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #date {
+        color: gray;
+        font-size: smaller;
+    }
+
+    #byline {
+        font-weight: bold;
+    }
+
+    #headshot {
+        width: 30px;
+    }
+    #lead {
+        width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    h1 {
+        font-size: 80px;
+    }
+}

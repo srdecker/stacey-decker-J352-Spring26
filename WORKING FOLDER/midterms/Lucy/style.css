@@ -1,0 +1,49 @@
+@media screen{
+    body {
+        font-family:Georgia,serif;
+    }
+    h1{
+        font-size:50px; 
+    }
+    
+    #article {
+        width: 70%;
+        margin: auto;
+            
+    }
+    #date{
+        color: gray;
+        font-size:10px;   
+    }
+    
+    #byline{
+        font-weight:bold;
+        margin-bottom: 20px;
+    }
+    
+    #extra-credit-headshot{
+        width: 30px;
+        float: left;
+    }
+    #lead{
+        width:100%
+    }
+    
+    #footer{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: aliceblue;
+        color: darkblue;
+        padding: 10px;
+        margin-top: 100px; }
+
+    }
+    
+    @media (min-width: 576px) {
+        h1{
+            font-size: 80px
+        }
+}
