@@ -5,6 +5,7 @@ Yellow - #fae255
 */
 
 @media screen {
+ 
     h1 {
         font-family: "Fredoka", sans-serif;
         font-weight: 700;
@@ -60,24 +61,24 @@ Yellow - #fae255
         font-weight: 700;
         letter-spacing: -0.04px;
         font-size: 50px;
-        line-height:1em;
+        line-height: 1em;
     }
 
     .attribution {
         width: 90%;
         margin: 10px auto 10px auto;
     }
-    
+
     .pullquote {
-        background-color:yellow;
-        padding:10px;
-        border-top:8px solid red;
+        background-color: yellow;
+        padding: 10px;
+        border-top: 8px solid red;
     }
-    
+
     .quotemark {
-        font-size:200px;
-        padding:25px 7px 100px 0px;
-        float:left;
+        font-size: 200px;
+        padding: 25px 7px 100% 0px;
+        float: left;
     }
 }
 

@@ -16,6 +16,5 @@ ETC
 - Media queries - DONE
 
 - Flourish story, map
-
 - float???
 - scrollytelling???
