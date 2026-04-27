@@ -1,68 +1,53 @@
-/*
-MY COLOR PALETTE
-Color 1 - #000000
-Color 2 - #1b4235
-Color 3 - #391bOb
-Color 4 - #edd3c5
-Color 5 - #ece7e3
-*/
-@media screen {
 #topper {
-    background-color: #1b4235;
+    background-color: #7dd4ff;
 }
-
-#headshot{
-    width:100%;
-    padding: 0px;
-    margin: 20px 0px 20px 40px
-        border-radius: 500px;
-    border: 8px solid #f0edee;
-    margin: 10px;
+#navigation,
+#experience,
+#skills,
+#education {
+    background-color: #ff99d8;
 }
-h1{
-    font-family:"Staatliches", sans-serif;
-        letter-spacing: -0.7px;
-        font-weight: bold;
-        text-transform: uppercase;
-       color: #eddf98;
-        padding: 10px 0px 0px 20px;
-    font-size:100px;
-        
-}
-
-button{
+#headshot {
+    width: 100%;
     border-radius: 45px;
-    border: none;
+    border: 8px solid #f0edee;
 }
 
-.job{
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 3px solid beige;
+h1 {
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 0.3px;
+    color: #01591b;
+    font-size: 70px;
 }
-.nav a{
-    color: #07393c;
-    text-decoration: none;
-}
-
-.nav a:hover {
-    font-weight:bold;
-    border-bottom: 1px solid beige;
-}
-    #button {
-    background-color:#EDD3C5;
-    border:0px;
-    border-radius: 10px;
-    padding:10px 30px 10px 30px;
-    text-transform:uppercase;
-    margin:10px;
+h2,
+h4,
+h5,
+h6,
+li {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #01591b;
 }
 
-#button a {
-    color:white;
-    text-decoration: none;
-}
+h3 {
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 0.3px;
+    color: #01591b;
+    font-size: 35px;
 }
 
+p {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #01591b;
+}
 
-/*style h2 here*/
+.job {
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
