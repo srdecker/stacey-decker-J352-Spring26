@@ -1,123 +1,68 @@
-/*Color Pallette
- Black - #363537
-Green - #0CCE6B
-Yellow - #DCED31
-Red - #EF2D56
-Orange - #ED7D3A */
-
+/*
+MY COLOR PALETTE
+Color 1 - #000000
+Color 2 - #1b4235
+Color 3 - #391bOb
+Color 4 - #edd3c5
+Color 5 - #ece7e3
+*/
 @media screen {
-    #topper {
-        background-color: #ef2d56;
-    }
+#topper {
+    background-color: #1b4235;
+}
 
-    #headshot {
-        width: 100%;
-        border-radius: 40px;
-        border: 8px solid white;
-        margin: 10px;
-    }
-    .fullwidth {
-        padding: px;
-    }
-    #experience {
-        color: white;
-        font-size: 30px;
-    }
-
-    #skills {
-        color: white;
-        font-size: 30px;
-    }
-    #education {
-        color: white;
-        font-size: 30px;
-    }
-    body {
-        margin: 10px;
-    }
-    h1 {
-        font-family: "Yeseva One", serif;
-        letter-spacing: 4px;
+#headshot{
+    width:100%;
+    padding: 0px;
+    margin: 20px 0px 20px 40px
+        border-radius: 500px;
+    border: 8px solid #f0edee;
+    margin: 10px;
+}
+h1{
+    font-family:"Staatliches", sans-serif;
+        letter-spacing: -0.7px;
         font-weight: bold;
         text-transform: uppercase;
-        padding: 10px px px 20px;
-        font-size: 50px;
-        color: white;
-    }
+       color: #eddf98;
+        padding: 10px 0px 0px 20px;
+    font-size:100px;
+        
+}
 
-    h2 {
-        font-family: "Yeseva One", serif;
-        color: white;
-    }
+button{
+    border-radius: 45px;
+    border: none;
+}
 
-    h3 {
-        font-family: "Yeseva One", serif;
-        font-weight: bold;
-        color: white;
-    }
-    h6 {
-        color: white;
-    }
-    ul {
-        color: #ef2d56;
-        font-family: "Yeseva One", serif;
-    }
+.job{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid beige;
+}
+.nav a{
+    color: #07393c;
+    text-decoration: none;
+}
 
+.nav a:hover {
+    font-weight:bold;
+    border-bottom: 1px solid beige;
+}
     #button {
-        border-radius: 40px;
-        font-family: "Yeseva One", serif;
-        background-color: white;
-        border-color: white;
-    }
-    p {
-        color: #ef2d56;
-    }
-
-    .job {
-        margin-bottom: 20px;
-        padding-bottom: 20px;
-        border-bottom: 3px solid #ef2d56;
-        color: white;
-        font-family: "Yeseva One", serif;
-    }
-    body {
-        background-color: #363537;
-    }
-    .site-footer {
-        text-align: center;
-        padding: 10px 0;
-        margin-top: 20px;
-        font-size: 14px;
-        font-family: "Yeseva One", serif;
-        color: white;
-        border-top: 3px solid #ef2d56;
-    }
-    .nav {
-        justify-content: center;
-    }
-    .nav a {
-        color: white;
-        text-decoration-color: #ef2d56;
-        font-family: "Yeseva One", serif;
-    }
-    .nav a:hover {
-        font-weight: bold;
-        border-bottom: 1px solid #363537;
-    }
+    background-color:#EDD3C5;
+    border:0px;
+    border-radius: 10px;
+    padding:10px 30px 10px 30px;
+    text-transform:uppercase;
+    margin:10px;
 }
 
-@media (min-width: 576px) {
-    h1 {
-        font-size: 80px;
-    }
-
-    button {
-        width: 200px;
-    }
+#button a {
+    color:white;
+    text-decoration: none;
+}
 }
 
-@media (min-width: 768px) {
-    h1 {
-        font-size: 100px;
-    }
-}
+
+/*style h2 here*/
