@@ -1,53 +1,302 @@
-#topper {
-    background-color: #7dd4ff;
-}
-#navigation,
-#experience,
-#skills,
-#education {
-    background-color: #ff99d8;
-}
-#headshot {
-    width: 100%;
-    border-radius: 45px;
-    border: 8px solid #f0edee;
+@media screen {
+    .tenor-sans-regular {
+        font-family: "Tenor Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    #page-top {
+        font-family: "Tenor Sans", sans-serif;
+    }
+
+    #photo-name-title {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #smokey-photo {
+        width: 100%;
+    }
+
+    #my-name {
+        font-size: 50px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #title-head {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    #email-button {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        width: 300px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #about-bio-exp {
+        background-color: orange;
+        margin-top: 50px;
+    }
+
+    #about-me {
+        margin-top: 20px;
+    }
+
+    .nav-button {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        border: solid;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #page-body-exp {
+        font-family: "Tenor Sans", sans-serif;
+        background-color: orange;
+    }
+
+    #experience-heading {
+        margin-top: 20px;
+    }
+
+    .white-space {
+        background-color: white;
+    }
+
+    #page-body-skills {
+        font-family: "Tenor Sans", sans-serif;
+        background-color: orange;
+    }
+
+    #skills-heading {
+        margin-top: 20px;
+    }
+
+    #page-body-edu {
+        font-family: "Tenor Sans", sans-serif;
+        background-color: orange;
+    }
+
+    #edu-heading {
+        margin-top: 20px;
+    }
+
+    #page-footer {
+        background-color: orange;
+        font-family: "Tenor Sans", sans-serif;
+    }
+
+    #copyright {
+        margin-top: 15px;
+    }
 }
 
-h1 {
-    font-family: "Libre Baskerville", serif;
-    letter-spacing: 0.3px;
-    color: #01591b;
-    font-size: 70px;
-}
-h2,
-h4,
-h5,
-h6,
-li {
-    font-family: "League Spartan", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: #01591b;
+@media (min-width: 576px) {
 }
 
-h3 {
-    font-family: "Libre Baskerville", serif;
-    letter-spacing: 0.3px;
-    color: #01591b;
-    font-size: 35px;
+@media (min-width: 768px) {
+    #about-bio-exp {
+        margin-top: 0;
+    }
+
+    #my-name {
+        font-size: 40px;
+    }
+
+    #title-head {
+        font-size: 25px;
+    }
 }
 
-p {
-    font-family: "League Spartan", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: #01591b;
-}
+@media (min-width: 992px) {
+    #my-name {
+        font-size: 55px;
+        margin-top: 100px;
+        margin-left: 140px;
+    }
 
-.job {
-    font-weight: bold;
-}
+    #title-head {
+        margin-left: 140px;
+        margin-top: 20px;
+        margin-bottom: 110px;
+    }
 
-img {
-    width: 100%;
+    #email-button {
+        margin-left: 140px;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 85px;
+    }
+
+    #about-bio-exp {
+        margin-top: 0;
+    }
+
+    #about-me {
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 170px;
+    }
+
+    #line1 {
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #bio {
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-bottom: 200px;
+        font-size: 20px;
+    }
+
+    .nav-button {
+        font-size: 20px;
+        margin-left: 140px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #exp-button {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    #skills-button {
+        padding-left: 97.5px;
+        padding-right: 97.5px;
+    }
+
+    #edu-button {
+        padding-left: 75.25px;
+        padding-right: 75.25px;
+        margin-top: 70px;
+    }
+
+    #exp-col {
+        padding: 0;
+        margin: 0;
+    }
+
+    #experience-heading {
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+
+    #line2 {
+        margin-left: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 140px;
+    }
+
+    #exp-bio {
+        margin-left: 140px;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+
+    .body-title {
+        margin-left: 140px;
+    }
+
+    .body-workplace {
+        margin-left: 140px;
+    }
+
+    .body-date-range {
+        margin-left: 140px;
+        margin-bottom: 25px;
+    }
+
+    .job-desc {
+        margin-left: 140px;
+        margin-bottom: 170px;
+    }
+
+    #skills-col {
+        padding: 0;
+        margin: 0;
+    }
+
+    #skills-heading {
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+
+    #line3 {
+        margin-left: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 140px;
+    }
+
+    #skills-bio {
+        margin-left: 140px;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+
+    .skills-list {
+        font-size: 25px;
+        margin-left: 140px;
+        margin-bottom: 230px;
+    }
+
+    #edu-col {
+        padding: 0;
+        margin: 0;
+    }
+
+    #edu-heading {
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+
+    #line4 {
+        margin-left: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 140px;
+    }
+
+    #edu-bio {
+        margin-left: 140px;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+
+    .edu-desc {
+        margin-left: 140px;
+        margin-bottom: 263px;
+        margin-right: 140px;
+        margin-top: 30px;
+    }
+
+    .body-edu-place {
+        margin-left: 140px;
+    }
+
+    .fullwidth {
+        padding: 0;
+        margin: 0;
+    }
 }

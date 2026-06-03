@@ -1,95 +1,50 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <title>Title</title>
-
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Fresca&family=Oi&display=swap"
-            rel="stylesheet" />
-
-        <link href="style.css" rel="stylesheet" />
+       
     </head>
 
     <body>
-        <div class="container-fluid" id="topper">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1>Madeleine Burke</h1>
-                    <h2>Student Journalist</h2>
-                    <button>Contact me</button>
-                </div>
-                <div class="col-sm-6">
-                    <img src="Resume%20Photo.png" alt="profile image" />
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid" id="navigation">
-            <div class="row">
-                <div class="col-sm-4 nav">
-                    <h3>Experience</h3>
-                </div>
-                <div class="col-sm-4 nav">
-                    <h3>Skills</h3>
-                </div>
-                <div class="col-sm-4 nav">
-                    <h3>Education</h3>
-                </div>
-            </div>
-       <div class="container-fluid" id="experience">
-  <div class="row">
-    <div class="col">
-      <h3>Experience</h3>
+       
+<h2>In social posts, a search for abandoned vehicles</h2>
 
-      <h4 class="job">Production Member</h4>
-      <h5>Big Ten Network Plus</h5>
-      <h6>August 2025 - Present</h6>
-      <p>
-        Produce collegiate broadcasts for Big Ten subscriber network.
-        Work cameras, audio, graphics, scorebug, replay, TOC, and technical direct.
-      </p>
 
-      <h4 class="job">Restaurant Host</h4>
-      <h5>Bethesda Country Club</h5>
-      <h6>June 2025 - September 2025</h6>
-      <p>
-        Lead members to seats, hand out menus, set up and clear tables,
-        take to-go orders, and call for reservation confirmations.
-      </p>
+<p>In this video ... </p>
 
-    </div>
-  </div>
-</div>
+  <video autoplay muted playsinline loop  width="100%">
+    <source src="https://cnsmaryland.org/wp-content/uploads/2026/05/social-post-examples-vehicles.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  
+<script>
+window.addEventListener('load', videoScroll);
+window.addEventListener('scroll', videoScroll);
 
-        <div class="container-fluid" id="skills">
-            <div class="row">
-                <div class="col">
-                    <h3>Skills</h3>
-                    <p>
-                        <li>Social Media Strategy</li>
-                        <li>Story Design and Presentation</li>
-                    </p>
-                </div>
-            </div>
-        </div>
+function videoScroll() {
 
-        <div class="container-fluid" id="education">
-            <div class="row">
-                <div class="col">
-                    <h3>Education</h3>
-                    <p>Bachelor of Arts, Journalism, University of Maryland 2028</p>
-                </div>
-            </div>
-        </div>
+  if ( document.querySelectorAll('video[autoplay]').length > 0) {
+    var windowHeight = window.innerHeight,
+        videoEl = document.querySelectorAll('video[autoplay]');
+
+    for (var i = 0; i < videoEl.length; i++) {
+
+      var thisVideoEl = videoEl[i],
+          videoHeight = thisVideoEl.clientHeight,
+          videoClientRect = thisVideoEl.getBoundingClientRect().top;
+
+      if ( videoClientRect <= ( (windowHeight) - (videoHeight*.5) ) && videoClientRect >= ( 0 - ( videoHeight*.5 ) ) ) {
+        thisVideoEl.play();
+      } else {
+        thisVideoEl.pause();
+      }
+
+    }
+  }
+
+}
+</script>
+
+
+
     </body>
 </html>

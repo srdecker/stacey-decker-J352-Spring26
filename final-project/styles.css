@@ -1,118 +1,302 @@
-/*
-Colors
-Brown - #8c4e2e
-Yellow - #fae255
-*/
-
 @media screen {
- 
-    h1 {
-        font-family: "Fredoka", sans-serif;
-        font-weight: 700;
-        letter-spacing: -0.04px;
-        font-size: 30px;
-        background-color: rgba(250, 225, 85, 0.5);
-        padding: 30px 50px 30px 50px;
+    .tenor-sans-regular {
+        font-family: "Tenor Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    #page-top {
+        font-family: "Tenor Sans", sans-serif;
+    }
+
+    #photo-name-title {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #smokey-photo {
         width: 100%;
     }
 
-    img {
-        width: 100%;
-    }
-
-    .caption {
-        color: red;
-        width: 100%;
-    }
-
-    .credit {
-        color: brown;
-    }
-
-    #topper2 {
-        background-image: url(woman-holding-things.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-    }
-
-    .leadimage {
-        background-image: url(woman-holding-things.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-    }
-
-    p {
-        width: 100%;
-        margin: 0px auto 10px auto;
-    }
-
-    .inlineimage {
-        width: 100%;
-        margin: 0px auto 10px auto;
-        display: block;
-    }
-
-    .quote {
-        width: 90%;
-        margin: 10px auto 10px auto;
-        font-family: "Fredoka", sans-serif;
-        font-weight: 700;
-        letter-spacing: -0.04px;
+    #my-name {
         font-size: 50px;
-        line-height: 1em;
+        margin-left: 10px;
+        margin-top: 10px;
     }
 
-    .attribution {
-        width: 90%;
-        margin: 10px auto 10px auto;
+    #title-head {
+        margin-left: 10px;
+        margin-bottom: 30px;
     }
 
-    .pullquote {
-        background-color: yellow;
-        padding: 10px;
-        border-top: 8px solid red;
+    #email-button {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        width: 300px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        display: inline-block;
+        text-align: center;
     }
 
-    .quotemark {
-        font-size: 200px;
-        padding: 25px 7px 100% 0px;
-        float: left;
+    #about-bio-exp {
+        background-color: orange;
+        margin-top: 50px;
+    }
+
+    #about-me {
+        margin-top: 20px;
+    }
+
+    .nav-button {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        border: solid;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #page-body-exp {
+        font-family: "Tenor Sans", sans-serif;
+        background-color: orange;
+    }
+
+    #experience-heading {
+        margin-top: 20px;
+    }
+
+    .white-space {
+        background-color: white;
+    }
+
+    #page-body-skills {
+        font-family: "Tenor Sans", sans-serif;
+        background-color: orange;
+    }
+
+    #skills-heading {
+        margin-top: 20px;
+    }
+
+    #page-body-edu {
+        font-family: "Tenor Sans", sans-serif;
+        background-color: orange;
+    }
+
+    #edu-heading {
+        margin-top: 20px;
+    }
+
+    #page-footer {
+        background-color: orange;
+        font-family: "Tenor Sans", sans-serif;
+    }
+
+    #copyright {
+        margin-top: 15px;
     }
 }
 
 @media (min-width: 576px) {
-    h1 {
-        font-size: 50px;
-        width: 80%;
-    }
-
-    p {
-        width: 60%;
-    }
-
-    .inlineimage {
-        width: 60%;
-    }
 }
 
 @media (min-width: 768px) {
-    h1 {
-        font-size: 65px;
-        width: 60%;
+    #about-bio-exp {
+        margin-top: 0;
+    }
+
+    #my-name {
+        font-size: 40px;
+    }
+
+    #title-head {
+        font-size: 25px;
     }
 }
 
 @media (min-width: 992px) {
-    h1 {
-        font-size: 75px;
-        width: 40%;
+    #my-name {
+        font-size: 55px;
+        margin-top: 100px;
+        margin-left: 140px;
     }
-}
 
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 90px;
+    #title-head {
+        margin-left: 140px;
+        margin-top: 20px;
+        margin-bottom: 110px;
+    }
+
+    #email-button {
+        margin-left: 140px;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 85px;
+    }
+
+    #about-bio-exp {
+        margin-top: 0;
+    }
+
+    #about-me {
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 170px;
+    }
+
+    #line1 {
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #bio {
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-bottom: 200px;
+        font-size: 20px;
+    }
+
+    .nav-button {
+        font-size: 20px;
+        margin-left: 140px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #exp-button {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    #skills-button {
+        padding-left: 97.5px;
+        padding-right: 97.5px;
+    }
+
+    #edu-button {
+        padding-left: 75.25px;
+        padding-right: 75.25px;
+        margin-top: 70px;
+    }
+
+    #exp-col {
+        padding: 0;
+        margin: 0;
+    }
+
+    #experience-heading {
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+
+    #line2 {
+        margin-left: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 140px;
+    }
+
+    #exp-bio {
+        margin-left: 140px;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+
+    .body-title {
+        margin-left: 140px;
+    }
+
+    .body-workplace {
+        margin-left: 140px;
+    }
+
+    .body-date-range {
+        margin-left: 140px;
+        margin-bottom: 25px;
+    }
+
+    .job-desc {
+        margin-left: 140px;
+        margin-bottom: 170px;
+    }
+
+    #skills-col {
+        padding: 0;
+        margin: 0;
+    }
+
+    #skills-heading {
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+
+    #line3 {
+        margin-left: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 140px;
+    }
+
+    #skills-bio {
+        margin-left: 140px;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+
+    .skills-list {
+        font-size: 25px;
+        margin-left: 140px;
+        margin-bottom: 230px;
+    }
+
+    #edu-col {
+        padding: 0;
+        margin: 0;
+    }
+
+    #edu-heading {
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+
+    #line4 {
+        margin-left: 140px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 140px;
+    }
+
+    #edu-bio {
+        margin-left: 140px;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+
+    .edu-desc {
+        margin-left: 140px;
+        margin-bottom: 263px;
+        margin-right: 140px;
+        margin-top: 30px;
+    }
+
+    .body-edu-place {
+        margin-left: 140px;
+    }
+
+    .fullwidth {
+        padding: 0;
+        margin: 0;
     }
 }
